@@ -1,10 +1,11 @@
+// @ts-ignore
 describe("home page", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000")
   })
 
   it("checks if the h1 contains the expected text", () => {
-    cy.get('[data-test="hero-heading"]')
+    cy.getByData("hero-heading")
       .should("exist")
       .contains("Testing Next.js Applications with Cypress")
   })
