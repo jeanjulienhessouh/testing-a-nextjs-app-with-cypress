@@ -28,7 +28,7 @@ describe("home page", () => {
       cy.getByData("course-1").find("a").contains("Get started").click()
       cy.location("pathname").should("equal", "/testing-foundations")
     })
-
+    //TODO: fix typos in commit message
     it("course: Cypress Fundamentals", () => {
       cy.getByData("course-2").find("a").contains("Get started").click()
       cy.location("pathname").should("equal", "/cypress-fundamentals")
