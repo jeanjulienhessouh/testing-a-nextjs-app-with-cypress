@@ -25,6 +25,7 @@
     "react-hook-form": "^7.27.1",
     "react-slick": "^0.28.1",
     "rehype-slug": "^5.0.1",
+    "run": "^1.4.0",
     "xstate": "^4.30.5"
   },
   "devDependencies": {
